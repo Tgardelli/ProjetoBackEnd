@@ -1,6 +1,6 @@
 # ProjetoBackEnd - Serviço de Busca
 
-Implementação de uma biblioteca em Node.js para um serviço de busca de websites, com armazenamento e consulta por palavras-chave[cite: 8, 28].
+Implementação de uma biblioteca em Node.js para um serviço de busca de websites, com armazenamento e consulta por palavras-chave.
 
 ## Instalação
 
