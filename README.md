@@ -6,9 +6,9 @@ Implementação de uma biblioteca em Node.js para um serviço de busca de websit
 
 1.  Clone o repositório.
 2.  Instale as dependências:
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 3.  Certifique-se de que uma instância do MongoDB esteja rodando localmente.
 
 ## Como Usar 
