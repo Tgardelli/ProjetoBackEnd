@@ -25,8 +25,8 @@ async function main() {
     console.log('Resultados da busca:', results);
     
     // Deletar website usando URL
-    await Website.delete(db, 'https://exemplo.com');
-    console.log('Website deletado com sucesso');
+    //await Website.delete(db, 'https://exemplo.com');
+    //console.log('Website deletado com sucesso');
     
   } catch (error) {
     console.error('Erro:', error.message);
