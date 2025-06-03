@@ -20,14 +20,14 @@ node index.js
 ```
 ## O script irá
 
-1.Conectar-se ao banco de dados MongoDB.
-2.Criar um novo registro de website.
-3.Realizar uma busca por palavra-chave e exibir os resultados.
-4.Desconectar-se do banco de dados.
+1.    Conectar-se ao banco de dados MongoDB.
+2.    Criar um novo registro de website.
+3.    Realizar uma busca por palavra-chave e exibir os resultados.
+4.    Desconectar-se do banco de dados.
 
 ## Funcionalidades da Biblioteca
 A biblioteca website.js atualmente suporta as seguintes operações estáticas:
 
-1.Criar um website: Website.create(db, data)
-2.Buscar por palavra-chave: Website.findByKeyword(db, keyword)
-3.Deletar um website: Website.delete(db, url)
+1.    Criar um website: Website.create(db, data)
+2.    Buscar por palavra-chave: Website.findByKeyword(db, keyword)
+3.    Deletar um website: Website.delete(db, url)
