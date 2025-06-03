@@ -11,24 +11,23 @@ Implementação de uma biblioteca em Node.js para um serviço de busca de websit
     ```
 3.  Certifique-se de que uma instância do MongoDB esteja rodando localmente.
 
-## Como Usar (CLI)
+## Como Usar 
 
--   **Criar um website:**
-    ```bash
-    node index.js create --url="[https://utfpr.edu.br](https://utfpr.edu.br)" --title="UTFPR" --keywords "universidade" "tecnologia"
-    ```
+O arquivo index.js contém um exemplo prático de como utilizar a biblioteca. Você pode executá-lo diretamente para ver as funcionalidades de criação e busca em ação.
 
--   **Buscar por palavra-chave:**
-    ```bash
-    node index.js find --keyword="tecnologia"
-    ```
+```bash
+node index.js
+```
+## O script irá
 
--   **Atualizar um website:**
-    ```bash
-    node index.js update --url="[https://utfpr.edu.br](https://utfpr.edu.br)" --newTitle="Universidade Tecnológica Federal do Paraná"
-    ```
+1.Conectar-se ao banco de dados MongoDB.
+2.Criar um novo registro de website.
+3.Realizar uma busca por palavra-chave e exibir os resultados.
+4.Desconectar-se do banco de dados.
 
--   **Deletar um website:**
-    ```bash
-    node index.js delete --url="[https://utfpr.edu.br](https://utfpr.edu.br)"
-    ```
+## Funcionalidades da Biblioteca
+A biblioteca website.js atualmente suporta as seguintes operações estáticas:
+
+1.Criar um website: Website.create(db, data)
+2.Buscar por palavra-chave: Website.findByKeyword(db, keyword)
+3.Deletar um website: Website.delete(db, url)
