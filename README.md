@@ -18,7 +18,7 @@ O projeto é modularizado para separar as responsabilidades:
 1.  **Clone o repositório.**
 2.  **Instale as dependências:**
     ```bash
-    npm install
+    npm install mongodb
     ```
 3.  **Pré-requisitos:**
     * Certifique-se de que uma instância do MongoDB esteja em execução no endereço `mongodb://localhost:27017`.
